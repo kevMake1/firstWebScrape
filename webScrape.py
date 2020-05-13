@@ -1,6 +1,6 @@
 from urllib.request import urlopen as uReq	#grabs it
 from bs4 import BeautifulSoup as soup	#parse html text
-from pages import categories
+from pages import categories    #for site's category url's
 
 url = categories["HomePage"]  #url
 

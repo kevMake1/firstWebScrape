@@ -1,3 +1,5 @@
+#url for each category
+
 categories = {
     "HomePage": "http://books.toscrape.com/",
     "Travel": "http://books.toscrape.com/catalogue/category/books/travel_2/index.html",
