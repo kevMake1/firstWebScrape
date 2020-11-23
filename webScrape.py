@@ -9,7 +9,7 @@ uClient = uReq(url)
 page_html = uClient.read()
 uClient.close()
 
-#parse data
+#Parse data
 page_soup = soup(page_html, "html.parser")
 
 products = page_soup.findAll("li", {"class":"col-lg-3"})
